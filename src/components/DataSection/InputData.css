@@ -1,0 +1,59 @@
+.input-tag {
+  width: 70%;
+  height: 35vh;
+}
+
+.main-div {
+  padding: 10px;
+}
+
+.placeholder-div {
+  font-weight: 500;
+  float: left;
+  padding-left: 230px;
+  margin-top: 25px;
+}
+
+/* .input-div {
+  display: column;
+} */
+
+.btn-div {
+  float: left;
+  padding-left: 220px;
+  padding-top: 10px;
+}
+
+.preview-div {
+  /* float: left; */
+  padding-left: 70px;
+  /* padding-top: 10px; */
+  /* justify-content: center; */
+  align-items: flex-start;
+}
+
+.summary-div {
+  /* float: left; */
+  padding-left: 220px;
+  padding-top: 10px;
+  position: sticky;
+}
+
+.count-div {
+  float: left;
+}
+
+.text-preview {
+  white-space: pre;
+  width: 30px;
+  /* justify-content: center; */
+  /* margin: auto; */
+  margin-left: 220px;
+}
+
+@media only screen and (max-width: 700px) {
+  .btn-div {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

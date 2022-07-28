@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.toggle-slide {
+  margin: 100px 200px;
+  border: 1px solid rgb(178, 202, 223);
+  height: 15px;
+  width: 50px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  position: relative;
+  transition: all 200ms;
+}
+
+.switch {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(178, 202, 223);
+  border-radius: 999px;
+  position: absolute;
+  top: 0px;
+  left: 2px;
+  transition: ease-in 200ms;
+}
+
+.slide {
+  transition: ease-in 200ms;
+  position: absolute;
+  left: 65%;
+}
